@@ -1,0 +1,25 @@
+# KiCad 6/7/8 backup and temporary files
+*-back.kicad_sch
+*-back.kicad_pcb
+*-back.sch
+*-back.kicad_pro
+*.bck
+*.000
+*.bak
+*.tmp
+*_autosave.kicad_pcb
+*_autosave.kicad_sch
+*_autosave.kicad_pro
+*.kicad_prl
+fp-info-cache
+*.net
+*.lck
+
+# KiCad generated files (Gerbers, Drill, BOM) should not be tracked during dev
+*.gbr
+*.drl
+*.csv
+*.pos
+*.rpt
+*~
+.history

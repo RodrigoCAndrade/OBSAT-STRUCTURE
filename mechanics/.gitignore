@@ -1,0 +1,25 @@
+# SolidWorks temporary and backup files
+~$*.sldprt
+~$*.sldasm
+~$*.slddrw
+*.swb
+*.swj
+*.chk
+*.cgr
+*.backup
+
+# AutoCAD temporary and backup files
+*.bak
+*.err
+*.dwl
+*.dwl2
+
+# Generic 3D CAD temporary files
+*.tmp
+*.lck
+*.lock
+
+# Step/Iges exports (if meant to be generated only on release)
+# Uncomment if you want to ignore local 3D exports
+# 3d_exports/*.step
+# 3d_exports/*.iges
