@@ -2,36 +2,39 @@
   <img src="https://i.imgur.com/2rKXkVL.png" alt="AXISS Logo" width="250"/>
 </div>
 
-<h1 align="center">Mission and Overview</h1>
+<h1 align="center">OBSAT Structure</h1>
 
 <p align="center">
     <a href="#"><img alt="Status" src="https://img.shields.io/badge/Status-Development-050505?style=for-the-badge"></a>
-    <a href="#"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/AXISS/Subsystem-Template?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
-    <a href="#"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/AXISS/Subsystem-Template?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
-    <a href="#"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/AXISS/Subsystem-Template?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
-    <a href="#"><img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/AXISS/Subsystem-Template?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Release" src="https://img.shields.io/github/v/release/RodrigoCAndrade/OBSAT-STRUCTURE?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Issues" src="https://img.shields.io/github/issues/RodrigoCAndrade/OBSAT-STRUCTURE?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Pull Requests" src="https://img.shields.io/github/issues-pr/RodrigoCAndrade/OBSAT-STRUCTURE?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
+    <a href="#"><img alt="GitHub Contributors" src="https://img.shields.io/github/contributors/RodrigoCAndrade/OBSAT-STRUCTURE?style=for-the-badge&color=050505&logo=github&logoColor=white"></a>
 </p>
 
 <br>
 
 <p align="center">
-    <img src="mechanics/3d_exports/render.png" width="400" alt="Main Board Render">
+  <img src="mechanics/3d_exports/render.png" width="400" alt="1U CubeSat Structure Render">
 </p>
 
 ## Overview
 
-This project involves the development of a dedicated subsystem module tailored for the AXISS CubeSat platform. The system is engineered to handle specific mission requirements, providing reliable performance, standardized PC/104 integration, and low-power operation based on our baseline hardware architecture.
+This project presents the development of a 1U CubeSat structure designed to support the AXISS architecture and remain compatible with the Brazilian Satellite Olympiad (OBSAT). The mechanical design focuses on standard CubeSat integration, robust packaging of onboard subsystems, secure launch deployment interfaces, and practical manufacturing constraints for educational and mission-focused use.
 
 **Technical Parameters**
 
+* Form factor: 1U CubeSat
+* OBSAT compatibility: Mechanical and interface constraints aligned with the competition requirements
+* Primary focus: Structural integrity, subsystem accommodation, and launch survivability
+* Integration: Standard CubeSat external envelope, without rails, and internal mounting references
+
 ## Repository Organization
 
-* `docs`: Systems engineering, requirements (SRD), and interface control (ICD).
-* `hardware`: Native KiCad project, schematics, and manufacturing files.
-* `mechanics`: 3D models, technical drawings, and physical integration constraints.
-* `simulations`: Thermal, physical, and electromagnetic analysis.
-* `software`: Embedded firmware and ground support testing scripts.
-* `verification`: Test plans, laboratory procedures, and validation reports.
+* `docs`: Requirements, mission assumptions, and interface control documentation.
+* `mechanics`: 3D models, technical drawings, and physical integration constraints for the 1U structure.
+* `simulations`: Thermal, vibration, and structural analyses.
+* `verification`: Test plans, laboratory procedures, and validation reports for OBSAT-oriented compliance.
 
 ## Releases
 
@@ -50,26 +53,26 @@ This project involves the development of a dedicated subsystem module tailored f
   </thead>
   <tbody>
     <tr>
-      <td><img src="03_mechanics/3d_exports/Board-Icon.png" alt="render" width="64"/></td>
-      <td>Subsystem Module v1</td>
+      <td><img src="mechanics/3d_exports/Board-Icon.png" alt="render" width="64"/></td>
+      <td>1U Structure v1</td>
       <td>Testing</td>
       <td><a href="#">v1.0</a></td>
-      <td>23-07-2026</td>
+      <td>2026-08-04</td>
       <td><a href="#">PDF</a></td>
       <td>Available</td>
-      <td><a href="#">Gerber Archive</a></td>
+      <td><a href="#">Manufacturing Package</a></td>
     </tr>
   </tbody>
 </table>
 
 ## Contributing
 
-We welcome contributions to this project! To ensure a smooth collaboration and maintain our aerospace engineering standards, please review our [Contribution Guidelines](CONTRIBUTING.md) before opening any issues, modifying the hardware design, or submitting pull requests.
+We welcome contributions to this project. To keep the mechanical design aligned with our aerospace engineering standards and OBSAT compatibility goals, please review our [Contribution Guidelines](CONTRIBUTING.md) before opening issues, modifying the structure, or submitting pull requests.
 
 
 ## References
 
-This project builds upon the foundational architecture developed by the AXISS engineering team. It integrates seamlessly with our existing aerospace standards and derives inspiration from open-source aerospace initiatives within the CubeSat community.
+This project builds upon the structural and integration concepts developed by the AXISS engineering team. It follows CubeSat best practices and is intended to support educational and mission-oriented development within the OBSAT ecosystem.
 
 **Associated Missions**
 
@@ -79,7 +82,4 @@ This project builds upon the foundational architecture developed by the AXISS en
 
 ## License
 
-This project utilizes a dual-licensing approach to maximize flexibility and adoption:
-
-* **Hardware:** The hardware designs and schematics are licensed under the permissive **[CERN-OHL-P-2.0](02_hardware/LICENSE)** open-hardware license. You are entirely free to use, modify, distribute, and commercialize the design without any copyleft obligations to share your derived works under the same terms.
-* **Software:** All embedded firmware and utility scripts are licensed under the **[MIT License](06_software/LICENSE)**. You are free to use, modify, and distribute the code without restriction, provided the original copyright notice and permission notice are included.
+The structural design, mechanical drawings, and related hardware documentation are licensed under the permissive **[CERN-OHL-P-2.0](mechanics/LICENSE)** open-hardware license. You may use, modify, distribute, and commercialize the design subject to the terms of that license.
