@@ -1,0 +1,34 @@
+# Ansys / HFSS / CST generated mesh and result files
+# Keep only setup and scripts, ignore heavy compiled data
+*.hfssresults/
+*.aedtresults/
+*.asol
+*.pjt
+*.msh
+*.sdb
+*.dsn
+*.sdc
+*.lok
+*.log
+*.err
+*.prof
+*.trn
+
+# STK (Systems Tool Kit) temporary and scenario autosave files
+*.stk_autosave
+*.stk_backup
+*.stk_temp/
+
+# Thermal Desktop / AutoCAD based thermal files
+*.dwl
+*.dwl2
+*.bak
+*.sav
+*.log
+*.rdy
+*.out
+*.csv
+
+# Generic simulation temp data
+*.tmp
+temp/
